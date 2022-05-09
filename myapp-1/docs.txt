@@ -1,0 +1,15 @@
+
+* instalar "express-generator":
+npm install express-generator -g
+
+* instalar "template-engine" / motor de vistas:
+// crea estructura de carpetas y archivos del proyecto | MVC
+// public / views / public / bin | app.js / package.json
+express --view=ejs myapp-1
+
+* instalar las dependencias / package.json
+// para que pueda funcionar el proyecto
+npm i
+
+* ejecutar proyecto
+npm run start
